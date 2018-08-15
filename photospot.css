@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+@import url('https://fonts.googleapis.com/css?family=Corben');
+body{
+    background-color:	#6c4e4e;
+}
+p{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.logo{
+    -moz-transform: rotate(-.80rad);
+    -webkit-transform: rotate(-.80rad);
+    -o-transform: rotate(-.80rad);
+    -ms-transform: rotate(-.80rad);
+    transform: rotate(-.80rad);
+    font-family: 'Hanalei Fill', cursive;
+    max-width: 100px;
+    max-height: 100px;
+    float:left;
+    color: #111111;
+    background-color: brown;
+    
+}
+.code{
+    -moz-transform: rotate(1.00rad);
+    -webkit-transform: rotate(1.00rad);
+    -o-transform: rotate(1.00rad);
+    -ms-transform: rotate(1.00rad);
+    transform: rotate(1.00rad);
+    font-family: 'Hanalei Fill', cursive;
+    max-width: 50px;
+    max-height: 50px;
+    font-size: 10px!important;
+    float:left;
+    color:white;
+}
+ img {
+    width: 300px;
+    max-width: 100%; 
+    max-height: 300px; 
+    margin: 0;
+  } 
+  .list-one{
+      color:#111111;
+      font-family: 'Sawarabi Mincho', sans-serif;
+      font-size: 18px;
+      margin:0;
+      width: 500px;
+      height: 300px;
+      justify-content: center;
+      padding: 0;
+     
+  }
+  .jumbotron{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 48px;
+    text-shadow: 4px 4px #4b3832;
+    background-color: #6c4e4e;
+    max-height: 200px;
+    color:white;
+  }
+  .one{
+      display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    padding: 0;
+  }
+  .two{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  h2{
+      font-size: 48px!important;
+  }
+  .capture{
+    font-family: 'Corben', cursive;
+    background-color: #be9b7b;
+    margin: 0;
+    padding:0;
+    width:100%
+  }
+  .media-three{
+      border-radius: 180px;
+        float: left;
+        padding: 0 20px 20px 0;
+  }
+.text-two{
+    font-size: 18px;
+}
+h2{
+    color: #111111;
+    font-size: 20px;
+    margin-left: 20%;   
+}
+.menu{
+    max-height: 800px;
+}
+path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #111111;
+  }
+  .arch{
+      font-size: 13px;
+  }
