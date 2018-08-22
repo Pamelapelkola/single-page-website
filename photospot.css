@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
 @import url('https://fonts.googleapis.com/css?family=Corben');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 body{
     background-color:	#6c4e4e;
+    color:white!important;
+    margin-right:5%!important;
+    margin-left:5%!important;
 }
 p{
     font-family: 'Sawarabi Mincho', sans-serif;
@@ -22,6 +28,10 @@ p{
     color: #111111;
     background-color: brown;
     
+}
+
+.menu{
+    height:800px;
 }
 .code{
     -moz-transform: rotate(1.00rad);
@@ -43,7 +53,6 @@ p{
     margin: 0;
   } 
   .list-one{
-      color:#111111;
       font-family: 'Sawarabi Mincho', sans-serif;
       font-size: 18px;
       margin:0;
@@ -56,13 +65,12 @@ p{
   .jumbotron{
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 48px;
-    text-shadow: 4px 4px #4b3832;
+    text-shadow: 2px 2px #4b3832;
     background-color: #6c4e4e;
     max-height: 200px;
-    color:white;
   }
   .one{
-      display: flex;
+    display: flex;
     justify-content: left;
     flex-wrap: wrap;
     margin-left: 30px;
@@ -76,28 +84,17 @@ p{
   h2{
       font-size: 48px!important;
   }
-  .capture{
+  .captures{
     font-family: 'Corben', cursive;
-    background-color: #be9b7b;
-    margin: 0;
-    padding:0;
-    width:100%
-  }
-  .media-three{
-      border-radius: 180px;
-        float: left;
-        padding: 0 20px 20px 0;
-  }
-.text-two{
-    font-size: 18px;
+    background-color:#f6e0b5;
+    color:#111111;
+    padding:5%; 
+    width:100%;   
 }
-h2{
-    color: #111111;
-    font-size: 20px;
-    margin-left: 20%;   
-}
-.menu{
-    max-height: 800px;
+
+.clarity{
+    padding:5%;
+    width: 100%;
 }
 path {
     fill: transparent;
@@ -107,5 +104,65 @@ path {
     fill: #111111;
   }
   .arch{
-      font-size: 13px;
+      font-size: 11px!important;
+      color:white!important;
   }
+  
+  .closeup{
+    font-family: 'Anton', sans-serif!important;
+    font-size: 48px!important;
+    margin-bottom: 20%;
+    width:100%;
+  }
+
+.w3-container{
+    max-height:1000px;
+    width:100%;
+    padding:5%;
+}
+
+.highlight{
+    background-color:#eea990!important;
+    color:red;
+    font-family: 'Corben', cursive;
+    background-color:#f6e0b5;
+    color:hsl(0, 0%, 7%);
+    padding:5%;
+    max-height: 1000px;
+    width:100%;
+}
+.four{
+    font-family: 'Oswald', sans-serif!important;
+}
+.five{
+font-family: 'Do Hyeon', sans-serif;
+}
+.vibrance{
+    background-color: #f6e0b5;
+    width:100%;
+    color:#111111;
+    padding:5%;
+    max-height:1000px;
+    
+}
+.sharp{
+    background-color: #a39193!important;
+    color: #111111!important;
+    padding: 5%;
+    width:100%;
+}
+.bw{
+    padding:5%;
+    width:100%;
+}
+.five{
+    text-align: center;
+}
+.favorite{
+    padding:5%;
+    width:100%;
+}
+.Fourth-div{
+    color: #111111!important;
+   
+}
